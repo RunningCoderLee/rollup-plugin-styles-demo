@@ -1,0 +1,40 @@
+{
+  "name": "rollup-plugin-styles-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf build &&  rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RunningCoderLee/rollup-plugin-styles-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RunningCoderLee/rollup-plugin-styles-demo/issues"
+  },
+  "homepage": "https://github.com/RunningCoderLee/rollup-plugin-styles-demo#readme",
+  "devDependencies": {
+    "@types/react": "16.9.36",
+    "@types/react-dom": "16.9.8",
+    "fibers": "5.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "rimraf": "^3.0.2",
+    "rollup": "2.15.0",
+    "rollup-plugin-styles": "3.8.0",
+    "rollup-plugin-typescript2": "0.27.1",
+    "sass": "1.26.8",
+    "ttypescript": "1.5.10",
+    "typescript": "3.9.5",
+    "typescript-transform-paths": "1.1.14"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
